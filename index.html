@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Callan Wassenaar - Independent Candidate</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo" onclick="showPage('home')">Callan For Change - Human Rights First</a>
+            <button class="mobile-toggle" onclick="toggleMobileMenu()" aria-label="Toggle navigation menu">☰</button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#" class="nav-link active" onclick="showPage('home')" data-page="home">Home</a></li>
+                <li><a href="#" class="nav-link" onclick="showPage('about')" data-page="about">About</a></li>
+                <li><a href="#" class="nav-link" onclick="showPage('platform')" data-page="platform">Platform</a></li>
+                <li><a href="#" class="nav-link" onclick="showPage('contact')" data-page="contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Page -->
+    <div id="home" class="page active">
+        <div class="hero">
+            <div class="container">
+                <h1>Together, We Rise</h1>
+                <p>I'm Callan Wassenaar, and I'm running to bring our voices back to Ottawa. No corporate donors. No party bosses. Just real people, real solutions for Battle River - Crowfoot.</p>
+                <a href="#" class="cta-button" onclick="showPage('platform')">Join Our Movement</a>
+            </div>
+        </div>
+        
+        <div class="container">
+            <section class="content-section">
+                <h2 class="section-title">Platform Pillars – Built for Battle River—Crowfoot</h2>
+                <div class="content-grid">
+                    <div class="card">
+                        <h3>Rural Healthcare Access</h3>
+                        <p>I will fight for:
+                            <ul>
+                                <li><strong>Federal investment</strong> in rural hospitals and clinics, especially in towns like Camrose, Wainwright, and Stettler.</li>
+                                <li>Push to expand rural <strong>mental health and addiction services</strong> tailored to rural needs.</li>
+                                <li><strong>Mobile health units</strong> and <strong>telehealth infrastructure</strong> to serve remote communities.</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3>Agriculture & Food Sovereignty</h3>
+                        <p>I will fight for:
+                            <ul>
+                                <li>Support <strong>family farms and ranchers</strong> with fair pricing, federal grants, and innovation funding.</li>
+                                <li>Protect <strong>Canadian food supply chains</strong> and promote <strong>local food systems</strong>.</li>
+                                <li>* Oppose trade deals that undermine <strong>Canadian producers</strong> and rural livelihoods.</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3>Energy & Economic Transition</h3>
+                        <p>I will fight for:
+                            <ul>
+                                <li>Champion a <strong>just transition</strong> for oil and gas workers, with retraining programs and local job creation.</li>
+                                <li>Push for investment in <strong>clean energy pilot projects</strong> in rural Alberta—solar, geothermal, and bioenergy.</li>
+                                <li></li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3>Accountability & Local Representation</h3>
+                        <p>I will fight for:
+                            <ul>
+                                <li>Stand against <strong>parachute candidates</strong> and top-down politics.</li>
+                                <li>Hold <strong>monthly town </strong>halls and provide <strong>transparent reporting</strong> on all federal decisions.</li>
+                                <li>Push for <strong>citizen-led oversight</strong> of federal spending in rural regions.</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3>Indigenous Rights & Reconciliation</h3>
+                        <p>I will fight for:
+                            <ul>
+                                <li>Work with <strong>local Indigenous communities</strong> to implement the <strong>Truth and Reconciliation Commission</strong>'s Calls to Action.</li>
+                                <li>Support <strong>Indigenous-led education, health, and housing</strong> initiatives in our region.</li>
+                                <li>Ensure <strong>clean water access</strong> and infrastructure for all Indigenous communities.</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3>Children’s Rights & Family Support</h3>
+                        <p>I will fight for:
+                            <ul>
+                                <li>Advocate for the <strong>UN Convention on the Rights of the Child (CRC)</strong> to be enshrined in Canadian law.</li>
+                                <li>Push for <strong>youth mental health programs</strong> and <strong>anti-bullying initiatives</strong> in schools.</li>
+                                <li><strong>Expand</strong> federal support for rural childcare, early learning, and family services.</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3>LGBTQ+ Inclusion in Rural Canada</h3>
+                        <p>I will fight for:
+                            <ul>
+                                <li>Promote <strong>safe, inclusive spaces</strong> for LGBTQ+ youth and families in rural Alberta.</li>
+                                <li>Ensure <strong>equitable access to healthcare and housing</strong> for LGBTQ+ individuals.</li>
+                                <li>Support <strong>community education and anti-discrimination programs.</strong></li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3>Veterans & Military Families</h3>
+                        <p>I will fight for:
+                            <ul>
+                                <li><strong>Improve federal support for veterans</strong>, especially those stationed at CFB Wainwright.</li>
+                                <li>Expand <strong>mental health services</strong> and <strong>transition programs</strong> for military families.</li>
+                                <li>Push for <strong>timely access to benefits and pensions</strong>.</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3>Infrastructure & Connectivity</h3>
+                        <p>I will fight for:
+                            <ul>
+                                <li>Push for <strong>universal rural broadband</strong> by 2027.</li>
+                                <li>Invest in <strong>highway safety, public transit, and community infrastructure</strong>.</li>
+                                <li>Push for investment in <strong>climate-resilient infrastructure</strong> to protect against floods, droughts, and wildfires.</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2 class="section-title">What's Happening</h2>
+                <div class="events-container">
+                    <div class="event-card upcoming">
+                        <div class="event-date">
+                            <span class="month">Jul</span>
+                            <span class="day">25</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>Coffee & Chat</h3>
+                            <p class="event-info">📍 Maya's Coffee Shop • 7:00 PM</p>
+                            <p class="event-desc">Weekly drop-in chat about what matters to you. Come as you are!</p>
+                            <span class="event-tag">Weekly</span>
+                        </div>
+                    </div>
+
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="month">Jul</span>
+                            <span class="day">27</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>Healthcare Town Hall</h3>
+                            <p class="event-info">📍 Community Center • 2:00 PM</p>
+                            <p class="event-desc">Let's talk about keeping our hospital open and making prescriptions affordable.</p>
+                            <span class="event-tag">Town Hall</span>
+                        </div>
+                    </div>
+
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="month">Aug</span>
+                            <span class="day">03</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>Block Party Canvass</h3>
+                            <p class="event-info">📍 Elm Street Park • 11:00 AM</p>
+                            <p class="event-desc">BBQ, music, and conversations with neighbors. Bring the whole family!</p>
+                            <span class="event-tag">Community</span>
+                        </div>
+                    </div>
+
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="month">Aug</span>
+                            <span class="day">08</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>Jobs & Economy Forum</h3>
+                            <p class="event-info">📍 Union Hall • 6:30 PM</p>
+                            <p class="event-desc">Small business owners, union leaders, and workers talking solutions.</p>
+                            <span class="event-tag">Forum</span>
+                        </div>
+                    </div>
+
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="month">Aug</span>
+                            <span class="day">15</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>Volunteer Phone Bank</h3>
+                            <p class="event-info">📍 Campaign HQ • 5:00 PM</p>
+                            <p class="event-desc">Help us reach voters! Pizza and phone training provided.</p>
+                            <span class="event-tag">Volunteer</span>
+                        </div>
+                    </div>
+
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="month">Aug</span>
+                            <span class="day">22</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>Environment & Agriculture Meet-up</h3>
+                            <p class="event-info">📍 Johnson Farm • 4:00 PM</p>
+                            <p class="event-desc">Farmers and environmentalists finding common ground on climate solutions.</p>
+                            <span class="event-tag">Meet-up</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="events-cta">
+                    <p>Want to host an event in your neighborhood? <a href="#" onclick="showPage('contact')" class="inline-link">Let's make it happen!</a></p>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2 class="section-title">See What We're Up To</h2>
+                <div class="social-feed-container">
+                    <div class="social-feed-intro">
+                        <p>Follow along as we build this movement together. Real updates from real people making real change.</p>
+                    </div>
+                    
+                    <div class="social-platforms">
+                        <div class="social-platform">
+                            <div class="platform-header">
+                                <div class="platform-icon twitter">🐦</div>
+                                <h3>Latest Tweets</h3>
+                            </div>
+                            <div class="social-embed-placeholder" data-platform="twitter">
+                                <!-- Twitter embed code goes here -->
+                                <div class="embed-placeholder">
+                                    <p>📱 Twitter feed will appear here</p>
+                                    <small>Embed your Twitter timeline widget code in this div</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-platform">
+                            <div class="platform-header">
+                                <div class="platform-icon instagram">📷</div>
+                                <h3>Behind the Scenes</h3>
+                            </div>
+                            <div class="social-embed-placeholder" data-platform="instagram">
+                                <!-- Instagram embed code goes here -->
+                                <div class="embed-placeholder">
+                                    <p>📸 Instagram feed will appear here</p>
+                                    <small>Embed your Instagram feed widget code in this div</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-platform">
+                            <div class="platform-header">
+                                <div class="platform-icon facebook">📘</div>
+                                <h3>Community Updates</h3>
+                            </div>
+                            <div class="social-embed-placeholder" data-platform="facebook">
+                                <!-- Facebook embed code goes here -->
+                                <div class="embed-placeholder">
+                                    <p>👥 Facebook updates will appear here</p>
+                                    <small>Embed your Facebook Page Plugin code in this div</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-cta">
+                        <p>💬 <strong>Join the conversation!</strong> Tag us, share your story, or just say hi.</p>
+                        <div class="social-handles">
+                            <span class="handle">@CallanForAll</span>
+                            <span class="handle">#TogetherWeRise</span>
+                            <span class="handle">#GrassrootsPower</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- About Page -->
+    <div id="about" class="page">
+        <div class="container">
+            <section class="content-section">
+                <h2 class="section-title">Meet Callan</h2>
+                <div class="content-grid">
+                    <div class="card">
+                        <h3>My Commitment to You</h3>
+                        <p>I’m not here to play politics—I’m here to <strong>serve Battle River—Crowfoot</strong> with integrity, compassion, and courage. I will always put <strong>people before parties</strong>, and I will never stop fighting for the future we deserve.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Real Experience</h3>
+                        <p>From organizing block parties to fighting city hall for better streetlights - I know how to bring people together and get stuff done. No fancy résumé needed.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Same Struggles</h3>
+                        <p>I've worried about mortgage payments, health insurance, and whether my kids will have the same opportunities I did. I get it because I live it.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h2 class="section-title">Community Connections</h2>
+                <div class="card">
+                    <h3>What We've Already Done Together</h3>
+                    <p>When they wanted to close our neighborhood school, we packed every board meeting until they listened. When the factory laid off 150 workers, we organized a job fair that placed 80% in new positions within six months.</p>
+                    <p>We got the city to finally fix Elm Street after a decade of complaints. We launched the community garden that now feeds 30 families. We pushed through the small business loan program that's already helped 50+ local entrepreneurs get started.</p>
+                    <p><strong>This is what real organizing looks like.</strong> Not press releases or photo ops - actual people coming together to solve actual problems.</p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Platform Page -->
+    <div id="platform" class="page">
+        <div class="container">
+            <section class="content-section">
+                <h2 class="section-title">Callan for Change – Platform for Battle River—Crowfoot</h2>
+                
+                <div class="platform-item">
+                    <h3><span class="platform-icon">🏥</span>1. Health Care Access</h3>
+                    <h4>Action Steps:</h4>
+                    <p>Propose a <strong>federal rural health infrastructure fund</strong> to upgrade hospitals and clinics.</p>
+                    <p>Introduce legislation to <strong>expand telehealth coverage</strong> under federal health transfers.</p>
+                    <p>Partner with provinces to <strong>deploy mobile health units</strong> in under-resourced areas.</p>
+                    <p>Advocate for <strong>mental health and addiction funding</strong> specifically earmarked for rural communities.</p>
+                    <p>Launch a <strong>rural health workforce strategy</strong> to recruit and retain doctors and nurses.</p>
+                </div>
+
+                <div class="platform-item">
+                    <h3><span class="platform-icon">🏛️</span>2. Government Accountability</h3>
+                    <h4>Action Steps:</h4>
+                    <ul>
+                        <li>Host <strong>monthly public town halls</strong> (in-person and virtual) to report on federal actions.</li>
+                        <li>Establish a <strong>constituent oversight committee</strong> to review local federal spending.</li>
+                        <li>Publish <strong>quarterly transparency reports</strong> on votes, funding, and policy decisions.</li>
+                        <li>Push for <strong>open data legislation</strong> to make federal spending and contracts publicly accessible.</li>
+                    </ul>
+                </div>
+
+                <div class="platform-item">
+                    <h3><span class="platform-icon">🫱🏽‍🫲🏾</span>3. Community Support & Inclusion</h3>
+                    <h4>Action Steps:</h4>
+                    <p>Secure federal funding to <strong>expand rural childcare and early learning programs</strong>.</p>
+                    <p>Advocate for <strong>youth mental health hubs</strong> in rural schools and community centres.</p>
+                    <p>Develop a <strong>federal anti-bullying strategy</strong> with rural-specific resources.</p>
+                    <p>Fund <strong>community-led inclusion programs</strong> for LGBTQ+, Indigenous, and newcomer youth.</p>
+                    <p>Support <strong>local grant programs</strong> for rural non-profits and youth organizations.</p>
+                </div>
+
+                <div class="platform-item">
+                    <h3><span class="platform-icon">🪶</span>4. Indigenous Rights & Reconciliation</h3>
+                    <h4>Action Steps:</h4>
+                    <p>Table a motion to <strong>fully implement the TRC Calls to Action</strong> at the federal level.</p>
+                    <p>Secure funding for <strong>Indigenous-led housing, education, and health programs</strong>.</p>
+                    <p>Work with Indigenous leaders to <strong>audit and enforce clean water access</strong> under Treaties 6, 7, and 8.</p>
+                    <p>Push for <strong>mandatory cultural competency training</strong> for federal employees and MPs.</p>
+                    <p>Support <strong>language revitalization and land-based education</strong> initiatives.</p>
+                </div>
+
+                <div class="platform-item">
+                    <h3><span class="platform-icon">🏳️‍🌈</span>5. LGBTQ+ Rights in Rural Communities</h3>
+                    <h4>Action Steps:</h4>
+                    <p>Propose a <strong>Rural LGBTQ+ Inclusion Fund</strong> to support safe spaces and services.</p>
+                    <p>Mandate <strong>inclusive curriculum standards</strong> in federally supported education programs.</p>
+                    <p>Ensure <strong>equal access to healthcare and housing</strong> through federal anti-discrimination enforcement.</p>
+                    <p>Partner with local groups to <strong>launch anti-hate and allyship campaigns</strong>.</p>
+                    <p>Advocate for <strong>federal protections against conversion therapy and hate crimes</strong>.</p>
+                </div>
+
+                <div class="platform-item">
+                    <h3><span class="platform-icon">🧑‍🧑‍🧒</span>6. Children’s Rights & Family Wellbeing</h3>
+                    <h4>Action Steps:</h4>
+                    <p>Expand <strong>federal funding for rural youth mental health services</strong>.</p>
+                    <p>Support <strong>school-based anti-bullying programs</strong> with federal grants and training.</p>
+                    <p>Increase <strong>childcare subsidies and rural family support programs</strong>.</p>
+                    <p>Create a <strong>National Children’s Commissioner</strong> to oversee child rights compliance.</p>
+                </div>
+
+                <div class="platform-item">
+                    <h3><span class="platform-icon">⚖️</span>7. Alignment with UN Conventions & Indigenous Treaties</h3>
+                    <h4>Action Steps:</h4>
+                    <p>Push for stronger enforcements of <strong>UN human rights initiatives</strong> to ensure federal policies translate into tangible benefits for all Canadians especially rural and marginalized communities.</p>
+                    <p>Push for a <strong>Treaty Implementation Office</strong> within the federal government.</p>
+                    <p>Require <strong>treaty impact assessments</strong> for all federal legislation affecting Indigenous communities.</p>
+                    <p>Fund <strong>infrastructure and education projects</strong> that reflect treaty obligations.</p>
+                    <p>Promote <strong>intergovernmental collaboration</strong> to uphold both international and treaty commitments.</p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Contact Page -->
+    <div id="contact" class="page">
+        <div class="container">
+            <section class="content-section">
+                <h2 class="section-title">Let's Connect</h2>
+                
+                <div class="content-grid">
+                    <div class="card">
+                        <h3>Campaign HQ</h3>
+                        <p><strong>Where we meet:</strong><br>
+                        123 Main Street<br>
+                        (Above Maya's Coffee Shop)<br>
+                        Hometown, ST 12345</p>
+                        <p><strong>Call/Text:</strong> (555) 123-4567<br>
+                        <strong>Email:</strong> hello@alexforall.com</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Come By Anytime</h3>
+                        <p><strong>Drop-in Hours:</strong><br>Monday - Friday: 9 AM - 6 PM<br>Saturday: 10 AM - 4 PM</p>
+                        <p><strong>Coffee & Chat:</strong><br>Every Thursday 7 PM<br>Maya's Coffee Shop</p>
+                        <p>Can't make it? We'll come to you. House parties, workplace visits, wherever works.</p>
+                    </div>
+                </div>
+
+                <form class="contact-form" onsubmit="handleSubmit(event)">
+                    <h3 style="color: var(--royal-purple); margin-bottom: 1.5rem; text-align: center;">Get Involved</h3>
+                    
+                    <div class="form-group">
+                        <label for="name">Your Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone (for text updates)</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">How can we work together? *</label>
+                        <input type="text" id="subject" name="subject" placeholder="Volunteer, host an event, share an idea..." required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Tell us more *</label>
+                        <textarea id="message" name="message" rows="5" placeholder="What issues matter most to you? How can we make our community stronger?" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Count Me In!</button>
+                </form>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <p>&copy; 2024 Callan Wassenaar - Grassroots Campaign. People powered.</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Facebook">📘</a>
+                    <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+                    <a href="#" class="social-link" aria-label="Instagram">📷</a>
+                    <a href="#" class="social-link" aria-label="YouTube">📺</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Page navigation
+        function showPage(pageId) {
+            // Hide all pages
+            const pages = document.querySelectorAll('.page');
+            pages.forEach(page => page.classList.remove('active'));
+            
+            // Show selected page
+            document.getElementById(pageId).classList.add('active');
+            
+            // Update active nav link
+            const navLinks = document.querySelectorAll('.nav-link');
+            navLinks.forEach(link => link.classList.remove('active'));
+            document.querySelector(`[data-page="${pageId}"]`).classList.add('active');
+            
+            // Close mobile menu if open
+            document.getElementById('navMenu').classList.remove('active');
+            
+            // Scroll to top
+            window.scrollTo(0, 0);
+        }
+
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            const navMenu = document.getElementById('navMenu');
+            navMenu.classList.toggle('active');
+        }
+
+        // Form submission
+        function handleSubmit(event) {
+            event.preventDefault();
+            alert('Thanks for joining the movement! We\'ll be in touch soon to get you plugged in.');
+            event.target.reset();
+        }
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const navMenu = document.getElementById('navMenu');
+            const mobileToggle = document.querySelector('.mobile-toggle');
+            
+            if (!navMenu.contains(event.target) && !mobileToggle.contains(event.target)) {
+                navMenu.classList.remove('active');
+            }
+        });
+
+        // Keyboard navigation support
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                document.getElementById('navMenu').classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>
