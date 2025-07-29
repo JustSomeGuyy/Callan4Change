@@ -171,6 +171,13 @@
 
         .content-grid {
             display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .content-grid-col {
+            display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 2rem;
             margin-top: 2rem;
@@ -694,6 +701,8 @@
 </style>
 
 <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v23.0"></script>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
@@ -714,6 +723,7 @@
             <div class="container">
                 <h1>Together, We Rise</h1>
                 <p>I'm Callan Wassenaar, and I'm running to bring our voices back to Ottawa. No corporate donors. No party bosses. Just real people, real solutions for Battle River - Crowfoot.</p>
+                <p>Authorized by the campaign manager of Callan Wassenaar</p>
                 <a href="#" class="cta-button" onclick="showPage('platform')">Join Our Movement</a>
             </div>
         </div>
@@ -721,7 +731,7 @@
         <div class="container">
             <section class="content-section">
                 <h2 class="section-title">Platform Pillars – Built for Battle River—Crowfoot</h2>
-                <div class="content-grid">
+                <div class="content-grid-col">
                     <div class="card">
                         <h3>Rural Healthcare Access</h3>
                         <p>I will fight for:
@@ -738,7 +748,7 @@
                             <ul>
                                 <li>Support <strong>family farms and ranchers</strong> with fair pricing, federal grants, and innovation funding.</li>
                                 <li>Protect <strong>Canadian food supply chains</strong> and promote <strong>local food systems</strong>.</li>
-                                <li>* Oppose trade deals that undermine <strong>Canadian producers</strong> and rural livelihoods.</li>
+                                <li>Oppose trade deals that undermine <strong>Canadian producers</strong> and rural livelihoods.</li>
                             </ul>
                         </p>
                     </div>
@@ -917,10 +927,7 @@
                             </div>
                             <div class="social-embed-placeholder" data-platform="twitter">
                                 <!-- Twitter embed code goes here -->
-                                <div class="embed-placeholder">
-                                    <p>📱 Twitter feed will appear here</p>
-                                    <small>Embed your Twitter timeline widget code in this div</small>
-                                </div>
+                                    <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=61577880792450" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/profile.php?id=61577880792450" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/profile.php?id=61577880792450">Callan 4 Change Human Rights First</a></blockquote></div>
                             </div>
                         </div>
 
@@ -931,10 +938,7 @@
                             </div>
                             <div class="social-embed-placeholder" data-platform="instagram">
                                 <!-- Instagram embed code goes here -->
-                                <div class="embed-placeholder">
-                                    <p>📸 Instagram feed will appear here</p>
-                                    <small>Embed your Instagram feed widget code in this div</small>
-                                </div>
+                                <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://www.reddit.com/user/Callan_For_Change/" data-iframely-url="//iframely.net/vWnV2StP?theme=dark"></a></div></div><script async src="//iframely.net/embed.js"></script>
                             </div>
                         </div>
 
@@ -945,10 +949,7 @@
                             </div>
                             <div class="social-embed-placeholder" data-platform="facebook">
                                 <!-- Facebook embed code goes here -->
-                                <div class="embed-placeholder">
-                                    <p>👥 Facebook updates will appear here</p>
-                                    <small>Embed your Facebook Page Plugin code in this div</small>
-                                </div>
+                                <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@callanforchange" data-unique-id="callanforchange" data-embed-from="oembed" data-embed-type="creator" style="max-width:780px; min-width:288px;"> <section> <a target="_blank" href="https://www.tiktok.com/@callanforchange?refer=creator_embed">@callanforchange</a> </section> </blockquote> <script async onerror="var a=document.createElement('script');a.src='https://iframely.net/files/tiktok-embed.js';document.body.appendChild(a);" src="https://www.tiktok.com/embed.js"></script>
                             </div>
                         </div>
                     </div>
@@ -973,16 +974,38 @@
                 <h2 class="section-title">Meet Callan</h2>
                 <div class="content-grid">
                     <div class="card">
-                        <h3>My Commitment to You</h3>
-                        <p>I’m not here to play politics—I’m here to <strong>serve Battle River—Crowfoot</strong> with integrity, compassion, and courage. I will always put <strong>people before parties</strong>, and I will never stop fighting for the future we deserve.</p>
+                        <h3>My Journey: From Patient to Advocate</h3>
+                        
+                        <p>I'm <strong>Callan Wassenaar</strong>, and I'm running in the <strong>Battle River–Crowfoot by-election</strong> because I believe politics should be grounded in <strong>real life, real people, and real change</strong>.</p>
+
+                        <p>I received a <strong>life-saving liver transplant in 1988</strong>, after undergoing my <strong>first open-heart surgery</strong> as a child. Years later, in <strong>2011</strong>, I had a <strong>second heart surgery</strong>—a reminder that the systems we rely on must be strong, compassionate, and accessible for the long haul. Living with <strong>Tyrosinemia</strong> and <strong>Tetralogy of Fallot</strong> has given me a front-row seat to the strengths and shortcomings of our healthcare and social support systems.</p>
+
+                        <p>These experiences aren't just part of my story—they're the reason I fight for <strong>equity, access, and dignity</strong> in every policy I propose. My campaign, <strong>Callan for Change: Human Rights First</strong>, is built on the belief that <strong>human rights must come before politics, profit, or party lines</strong>.</p>
+
                     </div>
                     <div class="card">
-                        <h3>Real Experience</h3>
-                        <p>From organizing block parties to fighting city hall for better streetlights - I know how to bring people together and get stuff done. No fancy résumé needed.</p>
+                        <h3>Community Work: Building Solutions Through Shared Experience</h3>
+
+                        <p>Over the years, I've worked closely with organizations that support families through medical crises. I've partnered with <strong>HopeAir</strong>, which helps Canadians travel to medical appointments when cost is a barrier. I've collaborated with the <strong>David Foster Foundation</strong>, which supports families of children undergoing organ transplants. And I'm actively involved in <strong>local peer support groups</strong> for both <strong>Tetralogy of Fallot</strong> and <strong>Tyrosinemia</strong>, offering mentorship and solidarity to others living with rare conditions.</p>
+
+                        <p>These communities have shown me the power of <strong>shared experience</strong>, and the urgent need for <strong>policy that reflects real lives</strong>. That's why I'm proposing bold, people-first solutions—like having the federal government take over shuttered provincial care facilities to ensure <strong>continuity of social supports</strong>, regardless of political shifts or budget cuts.</p>
+
                     </div>
                     <div class="card">
-                        <h3>Same Struggles</h3>
-                        <p>I've worried about mortgage payments, health insurance, and whether my kids will have the same opportunities I did. I get it because I live it.</p>
+                        <h3>My Platform: A Movement for Human Dignity</h3>
+
+                        <p>I'm not accepting donations. I believe <strong>integrity should never be for sale</strong>, and that campaigns should be powered by <strong>truth, transparency, and trust</strong>—not money.</p>
+
+                        <p>I'm fighting for:</p>
+                        <ul>
+                            <li><strong>Universal access to care and support</strong>, especially for those living with chronic or rare conditions.</li>
+                            <li><strong>Transparent, accountable leadership</strong> that listens before it legislates.</li>
+                            <li><strong>A Canada where human rights are non-negotiable</strong>, and every person is treated with dignity.</li>
+                        </ul>
+
+                        <p>This isn't just a campaign—it's a movement. A call for <strong>change that puts people first</strong>, led by someone who's lived the consequences of broken systems and is ready to fix them.</p>
+
+                        <p>If you believe in <strong>compassionate leadership</strong>, I hope you'll stand with me.</p>
                     </div>
                 </div>
             </section>
@@ -1008,11 +1031,13 @@
                 <div class="platform-item">
                     <h3><span class="platform-icon">🏥</span>1. Health Care Access</h3>
                     <h4>Action Steps:</h4>
-                    <p>Propose a <strong>federal rural health infrastructure fund</strong> to upgrade hospitals and clinics.</p>
-                    <p>Introduce legislation to <strong>expand telehealth coverage</strong> under federal health transfers.</p>
-                    <p>Partner with provinces to <strong>deploy mobile health units</strong> in under-resourced areas.</p>
-                    <p>Advocate for <strong>mental health and addiction funding</strong> specifically earmarked for rural communities.</p>
-                    <p>Launch a <strong>rural health workforce strategy</strong> to recruit and retain doctors and nurses.</p>
+                    <ul>
+                        <li>Propose a <strong>federal rural health infrastructure fund</strong> to upgrade hospitals and clinics.</li>
+                        <li>Introduce legislation to <strong>expand telehealth coverage</strong> under federal health transfers.</li>
+                        <li>Partner with provinces to <strong>deploy mobile health units</strong> in under-resourced areas.</li>
+                        <li>Advocate for <strong>mental health and addiction funding</strong> specifically earmarked for rural communities.</li>
+                        <li>Launch a <strong>rural health workforce strategy</strong> to recruit and retain doctors and nurses.</li>
+                    </ul>
                 </div>
 
                 <div class="platform-item">
@@ -1029,50 +1054,60 @@
                 <div class="platform-item">
                     <h3><span class="platform-icon">🫱🏽‍🫲🏾</span>3. Community Support & Inclusion</h3>
                     <h4>Action Steps:</h4>
-                    <p>Secure federal funding to <strong>expand rural childcare and early learning programs</strong>.</p>
-                    <p>Advocate for <strong>youth mental health hubs</strong> in rural schools and community centres.</p>
-                    <p>Develop a <strong>federal anti-bullying strategy</strong> with rural-specific resources.</p>
-                    <p>Fund <strong>community-led inclusion programs</strong> for LGBTQ+, Indigenous, and newcomer youth.</p>
-                    <p>Support <strong>local grant programs</strong> for rural non-profits and youth organizations.</p>
+                    <ul>
+                        <li>Secure federal funding to <strong>expand rural childcare and early learning programs</strong>.</li>
+                        <li>Advocate for <strong>youth mental health hubs</strong> in rural schools and community centres.</li>
+                        <li>Develop a <strong>federal anti-bullying strategy</strong> with rural-specific resources.</li>
+                        <li>Fund <strong>community-led inclusion programs</strong> for LGBTQ+, Indigenous, and newcomer youth.</li>
+                        <li>Support <strong>local grant programs</strong> for rural non-profits and youth organizations.</li>
+                    </ul>
                 </div>
 
                 <div class="platform-item">
                     <h3><span class="platform-icon">🪶</span>4. Indigenous Rights & Reconciliation</h3>
                     <h4>Action Steps:</h4>
-                    <p>Table a motion to <strong>fully implement the TRC Calls to Action</strong> at the federal level.</p>
-                    <p>Secure funding for <strong>Indigenous-led housing, education, and health programs</strong>.</p>
-                    <p>Work with Indigenous leaders to <strong>audit and enforce clean water access</strong> under Treaties 6, 7, and 8.</p>
-                    <p>Push for <strong>mandatory cultural competency training</strong> for federal employees and MPs.</p>
-                    <p>Support <strong>language revitalization and land-based education</strong> initiatives.</p>
+                    <ul>
+                        <li>Table a motion to <strong>fully implement the TRC Calls to Action</strong> at the federal level.</li>
+                        <li>Secure funding for <strong>Indigenous-led housing, education, and health programs</strong>.</li>
+                        <li>Work with Indigenous leaders to <strong>audit and enforce clean water access</strong> under Treaties 6, 7, and 8.</li>
+                        <li>Push for <strong>mandatory cultural competency training</strong> for federal employees and MPs.</li>
+                        <li>Support <strong>language revitalization and land-based education</strong> initiatives.</li>
+                    </ul>
                 </div>
 
                 <div class="platform-item">
                     <h3><span class="platform-icon">🏳️‍🌈</span>5. LGBTQ+ Rights in Rural Communities</h3>
                     <h4>Action Steps:</h4>
-                    <p>Propose a <strong>Rural LGBTQ+ Inclusion Fund</strong> to support safe spaces and services.</p>
-                    <p>Mandate <strong>inclusive curriculum standards</strong> in federally supported education programs.</p>
-                    <p>Ensure <strong>equal access to healthcare and housing</strong> through federal anti-discrimination enforcement.</p>
-                    <p>Partner with local groups to <strong>launch anti-hate and allyship campaigns</strong>.</p>
-                    <p>Advocate for <strong>federal protections against conversion therapy and hate crimes</strong>.</p>
+                    <ul>
+                        <li>Propose a <strong>Rural LGBTQ+ Inclusion Fund</strong> to support safe spaces and services.</li>
+                        <li>Mandate <strong>inclusive curriculum standards</strong> in federally supported education programs.</li>
+                        <li>Ensure <strong>equal access to healthcare and housing</strong> through federal anti-discrimination enforcement.</li>
+                        <li>Partner with local groups to <strong>launch anti-hate and allyship campaigns</strong>.</li>
+                        <li>Advocate for <strong>federal protections against conversion therapy and hate crimes</strong>.</li>
+                    </ul>
                 </div>
 
                 <div class="platform-item">
                     <h3><span class="platform-icon">🧑‍🧑‍🧒</span>6. Children’s Rights & Family Wellbeing</h3>
                     <h4>Action Steps:</h4>
-                    <p>Expand <strong>federal funding for rural youth mental health services</strong>.</p>
-                    <p>Support <strong>school-based anti-bullying programs</strong> with federal grants and training.</p>
-                    <p>Increase <strong>childcare subsidies and rural family support programs</strong>.</p>
-                    <p>Create a <strong>National Children’s Commissioner</strong> to oversee child rights compliance.</p>
+                    <ul>
+                        <li>Expand <strong>federal funding for rural youth mental health services</strong>.</li>
+                        <li>Support <strong>school-based anti-bullying programs</strong> with federal grants and training.</li>
+                        <li>Increase <strong>childcare subsidies and rural family support programs</strong>.</li>
+                        <li>Create a <strong>National Children’s Commissioner</strong> to oversee child rights compliance.</li>
+                    </ul>
                 </div>
 
                 <div class="platform-item">
                     <h3><span class="platform-icon">⚖️</span>7. Alignment with UN Conventions & Indigenous Treaties</h3>
                     <h4>Action Steps:</h4>
-                    <p>Push for stronger enforcements of <strong>UN human rights initiatives</strong> to ensure federal policies translate into tangible benefits for all Canadians especially rural and marginalized communities.</p>
-                    <p>Push for a <strong>Treaty Implementation Office</strong> within the federal government.</p>
-                    <p>Require <strong>treaty impact assessments</strong> for all federal legislation affecting Indigenous communities.</p>
-                    <p>Fund <strong>infrastructure and education projects</strong> that reflect treaty obligations.</p>
-                    <p>Promote <strong>intergovernmental collaboration</strong> to uphold both international and treaty commitments.</p>
+                    <ul>
+                        <li>Push for stronger enforcements of <strong>UN human rights initiatives</strong> to ensure federal policies translate into tangible benefits for all Canadians especially rural and marginalized communities.</li>
+                        <li>Push for a <strong>Treaty Implementation Office</strong> within the federal government.</li>
+                        <li>Require <strong>treaty impact assessments</strong> for all federal legislation affecting Indigenous communities.</li>
+                        <li>Fund <strong>infrastructure and education projects</strong> that reflect treaty obligations.</li>
+                        <li>Promote <strong>intergovernmental collaboration</strong> to uphold both international and treaty commitments.</li>
+                    </ul>
                 </div>
             </section>
         </div>
