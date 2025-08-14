@@ -403,6 +403,11 @@
             font-weight: 500;
         }
 
+        .event-info a {
+            color: var(--teal);
+            text-decoration: none;
+        }
+
         .event-desc {
             color: var(--black);
             font-size: 0.95rem;
