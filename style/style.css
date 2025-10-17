@@ -88,7 +88,6 @@
         .page {
             display: none;
             min-height: calc(100vh - 200px);
-            padding: 3rem 0;
         }
 
         .page.active {
@@ -127,6 +126,7 @@
             display: inline-block;
             transition: all 0.3s ease;
             box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            margin-top: 1rem;
         }
 
         .cta-button:hover {
@@ -165,12 +165,13 @@
             margin-top: 2rem;
         }
 
-        /* .content-grid-col {
+        .content-grid-col {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 2rem;
             margin-top: 2rem;
-        } */
+            padding-bottom: 2rem;
+        }
 
         .card {
             background-color: var(--light-gray);
@@ -186,7 +187,7 @@
             transform: translateY(-5px);
         }
 
-        .card h3 {
+        .card h3, h4{
             color: var(--royal-purple);
             margin-bottom: 1rem;
             font-size: 1.3rem;
